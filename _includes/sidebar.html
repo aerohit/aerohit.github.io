@@ -1,5 +1,5 @@
 <div class="sidebar">
-  <div class="container sidebar-sticky">
+  <div class="container">
     <div class="sidebar-about">
       <h1>
         <a href="{{ site.baseurl }}">
@@ -29,7 +29,10 @@
       <a class="sidebar-nav-item" href="{{ site.github.repo }}" target="_blank">GitHub</a>
     </nav>
 
-    <!--<p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>-->
-    <p><small>Built using <a href="http://getpoole.com/">Poole</a>.</small></p>
+  </div>
+  <div class="container sidebar-sticky">
+    <small>Built using <a href="http://getpoole.com/">Poole</a>.</small>
+    <br />
+    <small>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</small>
   </div>
 </div>
