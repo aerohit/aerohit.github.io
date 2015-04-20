@@ -10,7 +10,7 @@ I code on my personal machine, my work machine and on my DigitalOcean Droplet.
 I wanted a way to take notes which met the following criteria:
 
 + Should be simple and non-distracting
-+ Works on a laptop as well as on a remote node
++ Works on a local as well as a remote machine
 + Keeps the notes in sync, irrespective of where I take them
 + And it should be Vim
 
@@ -27,7 +27,7 @@ nnoremap <leader>on :tabnew<CR>:Note<Space>
 
 I have also created a mapping for quickly accessing the notes.
 
-To keep them in sync is easy on my machine, I only need to install their app.
+To keep the notes in sync is easy on my machine, I only need to do a normal installation of Dropbox.
 For the remote node, I did a [headless install](https://www.dropbox.com/install?os=lnx).
 To make make sure that the Dropbox daemon starts on boot, I created a cron job:
 
