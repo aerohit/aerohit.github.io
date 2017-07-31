@@ -17,3 +17,5 @@ paginate:         5
 
 github:
     repo:         https://github.com/aerohit
+
+theme: jekyll-theme-minimal
